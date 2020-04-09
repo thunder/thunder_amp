@@ -1,0 +1,24 @@
+{
+    "name": "drupal/thunder_amp",
+    "type": "drupal-theme",
+    "description": "Thunder AMP Integration",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Christian Fritsch",
+            "email": "christian.fritsch@burda.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "drupal/amp": "1.2",
+        "drupal/amptheme": "^1.1"
+    },
+    "extra": {
+        "patches": {
+            "drupal/amp": {
+                "Missing schema": "https://www.drupal.org/files/issues/missing_schema_for-2878769-3.patch"
+            }
+        }
+    }
+}
