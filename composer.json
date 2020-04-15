@@ -12,7 +12,8 @@
     "minimum-stability": "dev",
     "require": {
         "drupal/amp": "1.2",
-        "drupal/amptheme": "^1.1"
+        "drupal/amptheme": "^1.1",
+        "lullabot/amp": "^1.1.4"
     },
     "extra": {
         "patches": {
