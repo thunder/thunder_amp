@@ -3,7 +3,8 @@ type: theme
 base theme: amptheme
 description: An AMP subtheme for Thunder.
 package: Custom
-core: 8.x
+core: '8.x'
+core_version_requirement: ^8
 regions:
   header: Header
   content: Content
